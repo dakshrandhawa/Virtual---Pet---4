@@ -177,7 +177,7 @@ function draw() {
 
   
   var button=createButton("Add Food!");
-  button.position(400,125);
+  button.position(250,125);
 
   if(button.mousePressed(function(){
       foodS=foodS-1;
@@ -186,7 +186,7 @@ function draw() {
   }));
 
   var addFood=createButton("Feed The Dog!");
-  addFood.position(500,125);
+  addFood.position(400,125);
 
   if(addFood.mousePressed(function(){
       foodS=foodS+1;
